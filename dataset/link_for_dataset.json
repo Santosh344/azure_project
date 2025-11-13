@@ -1,0 +1,20 @@
+{
+	"name": "link_for_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dataloadinglinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "git.json",
+				"fileSystem": "parameters"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

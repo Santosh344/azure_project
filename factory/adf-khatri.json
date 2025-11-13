@@ -1,0 +1,9 @@
+{
+	"name": "adf-khatri",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b08f1c20-a5c3-4267-8cb5-6b2a845fa4c7",
+		"tenantId": "77400552-aff3-46d5-9cbe-a35ab9ac3716"
+	}
+}
